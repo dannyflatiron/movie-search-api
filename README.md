@@ -1,24 +1,22 @@
-# README
+# MovieSearch
+### Movie search app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails API services the front end for the movie search app that can be found [here](https://github.com/dannyflatiron/movie-search). API writes new movie objects to a postgresql database and has two endpoints to view data. After installing API, you can view data structure with http://localhost:3000/movies or http://localhost:3000/movies/id. API employs serializing features provided by the jsonapi-serializer gem and logic to handle incoming voting data.
 
-Things you may want to cover:
+Some of the features of this app include:
 
-* Ruby version
+* Ruby version: '2.6.1'
+* Rails version: '~> 6.0.3', '>= 6.0.3.4'
+* Serializer: jsonapi-serializer
+* Database: postgresql
 
-* System dependencies
+## Running it locally
+- run `bundle install` 
+- navigate to `http://localhost:3000` or `http://localhost:3001`
+```
 
-* Configuration
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
